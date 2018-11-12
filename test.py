@@ -8,7 +8,7 @@ from osm_layers.osm2layers import *
 import imp
 
 if __name__ == "__main__":
-    with open("./map.geojson") as f:
+    with open("./raw/map.geojson") as f:
         tmp = " ".join(f.readlines())
     fullmap = json.loads(tmp)
 
