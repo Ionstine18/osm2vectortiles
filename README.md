@@ -12,8 +12,11 @@ tippecanoe can be installed on mac by
 brew install tippecanoe
 
 3. run node server.js to start the map server (please check https://gis.stackexchange.com/questions/125037/self-hosting-mapbox-vector-tiles)
-3.1 Install Node.js
-3.2 Grab the node packages with npm install tilelive mbtiles express
-3.3 node server.js
+
+- 3.1 Install Node.js
+
+- 3.2 Grab the node packages with npm install tilelive mbtiles express
+
+- 3.3 node server.js
 
 4. open index.html
